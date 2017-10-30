@@ -1,0 +1,104 @@
+.content-wrapp  {
+    width: 50%;
+    height: auto;
+    margin: 15% auto;
+    background-color: #cccccc;
+    border: 3px solid #006400;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+.numeral-block,
+.functional-block  {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    border-radius: 5px;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.functional-block {
+    width: 30%;
+}
+.buttons-blank,
+.buttons-num {
+    display: inline-block;
+    width: 30%;
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 5% 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 2% 2% 0;
+    color: #006400;
+    border: 2px solid #006400;
+    cursor: pointer;
+    background-color: #cccccc;
+    transition: all 0.3s ease-out;
+}
+.buttons-num:hover {
+    color: #4ce096;
+    background-color: #fff;
+    transition: all 0.3s ease-out;
+}
+.buttons-func {
+    width: 100%;
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 12% 0;
+    margin: 0 0 6%;
+    border: 2px solid #006400;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000;
+    transition: all 0.3s ease-out;
+}
+.buttons-func.cancel {
+    background-color: #DC143C;
+}
+.buttons-func.clear {
+    background-color: #FFD700;
+}
+.buttons-func.enter {
+    background-color: #008000;
+}
+.buttons-func:hover {
+    border-color: #a1a1a1;
+    transition: all 0.3s ease-out;
+}
+.pincode {
+    width: 61%;
+    padding: 3%;
+    border: 0;
+    margin: 2%;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.shuffle-mode {
+    font-size: 23px;
+    color: #006400;
+    display: inline-block;
+    margin: 0 0 0 7%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.shuffle-mode span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
